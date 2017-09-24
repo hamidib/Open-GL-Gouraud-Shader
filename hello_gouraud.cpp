@@ -219,8 +219,8 @@ public:
     initLights( );
     
     // Load shader program A
-    const char* vertexShaderSource_A = "blinn_phong.vert.glsl";
-    const char* fragmentShaderSource_A = "blinn_phong.frag.glsl";
+    const char* vertexShaderSource_A = "gouraud.vert.glsl";
+    const char* fragmentShaderSource_A = "gouraud.frag.glsl";
     FragmentShader fragmentShader_A(fragmentShaderSource_A);
     VertexShader vertexShader_A(vertexShaderSource_A);
     shaderProgram_A.attach(vertexShader_A);
