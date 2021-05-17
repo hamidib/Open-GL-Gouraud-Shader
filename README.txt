@@ -1,6 +1,4 @@
-Name: Bijan A. Hamidi
-Date: Sept 23, 2017
-Email: bhamidi@csu.fullerton.edu
+Sept 23, 2017
 
 Description: This is the gouraud shader program that is built from the phong shader file provided. The main difference between the two shader files is that with phong shading the color is calculated per fragment while gouraud shading the color is calculated per vertex then interpolated and then assigned to the fragment.  I had defined "varying vec4 myColor" to interpolate the result from the color calculation in gouraud.vert.glsl through the graphics pipeline to gouraud.frag.glsl.
 
